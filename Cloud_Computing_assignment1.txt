@@ -1,0 +1,4 @@
+﻿1. http://54.164.1.34/  
+2. https://github.uc.edu/ranaas/sentiment 
+3. https://github.uc.edu/ranaas/sentiment/blob/master/README.md
+4. 4ed40f9bff9ac172386792277286bd75004cddd2

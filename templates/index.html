@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block body %}
+    <div class="row">
+        <div id="sentence" class="col s12">
+            <form method="get" action="{% url 'analyse' %} ">
+                <div class="input-field col s8 offset-l2">
+                    <label for="{{ sentence.input_sentence.sentence_id }}">Give me a sentence:</label>
+                    {{ sentence.input_sentence }}
+                
+                <br>
+                <br>
+                <button class="btn waves-effect waves-light green lighten-2" type="submit">Analyse
+                    <i class="material-icons right">send</i>
+                </button>
+                </div>
+            </form>
+        </div>
+    </div>
+{% endblock %}
